@@ -20,7 +20,7 @@ function initChart(canvas, width, height, dpr) {
       confine: true
     },
     legend: {
-      data: ['热度', '正面', '负面']
+      data: ['指标1', '指标2', '指标3']
     },
     grid: {
       left: 20,
@@ -59,7 +59,7 @@ function initChart(canvas, width, height, dpr) {
     ],
     series: [
       {
-        name: '热度',
+        name: '指标1',
         type: 'bar',
         label: {
           normal: {
@@ -75,7 +75,7 @@ function initChart(canvas, width, height, dpr) {
         }
       },
       {
-        name: '正面',
+        name: '指标2',
         type: 'bar',
         stack: '总量',
         label: {
@@ -91,7 +91,7 @@ function initChart(canvas, width, height, dpr) {
         }
       },
       {
-        name: '负面',
+        name: '指标3',
         type: 'bar',
         stack: '总量',
         label: {
